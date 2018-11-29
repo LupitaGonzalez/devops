@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="parallax.js"></script>
 </head>
 <body>
     <section>
         <div class="wrapper">
-        <h1>
+        <h1 id="home">
             DEVOPS3
         </h1>
     </div>
     </section>
+    <script>
+    var scene = document.getElementById('home');
+    var parallaxInstance = new parallax(scene);
+    </script>
 </body>
 </html>
